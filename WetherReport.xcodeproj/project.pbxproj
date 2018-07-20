@@ -1,0 +1,574 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		31B328322101A0D9001D9248 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31B328312101A0D9001D9248 /* AppDelegate.swift */; };
+		31B328342101A0D9001D9248 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31B328332101A0D9001D9248 /* ViewController.swift */; };
+		31B328372101A0D9001D9248 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 31B328352101A0D9001D9248 /* Main.storyboard */; };
+		31B3283A2101A0D9001D9248 /* WetherReport.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 31B328382101A0D9001D9248 /* WetherReport.xcdatamodeld */; };
+		31B3283C2101A0D9001D9248 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 31B3283B2101A0D9001D9248 /* Assets.xcassets */; };
+		31B3283F2101A0D9001D9248 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 31B3283D2101A0D9001D9248 /* LaunchScreen.storyboard */; };
+		31B3284A2101A0DA001D9248 /* WetherReportTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31B328492101A0DA001D9248 /* WetherReportTests.swift */; };
+		31B328552101A0DA001D9248 /* WetherReportUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31B328542101A0DA001D9248 /* WetherReportUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		31B328462101A0DA001D9248 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 31B328262101A0D8001D9248 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 31B3282D2101A0D9001D9248;
+			remoteInfo = WetherReport;
+		};
+		31B328512101A0DA001D9248 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 31B328262101A0D8001D9248 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 31B3282D2101A0D9001D9248;
+			remoteInfo = WetherReport;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		31B3282E2101A0D9001D9248 /* WetherReport.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WetherReport.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		31B328312101A0D9001D9248 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		31B328332101A0D9001D9248 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		31B328362101A0D9001D9248 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		31B328392101A0D9001D9248 /* WetherReport.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = WetherReport.xcdatamodel; sourceTree = "<group>"; };
+		31B3283B2101A0D9001D9248 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		31B3283E2101A0D9001D9248 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		31B328402101A0D9001D9248 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		31B328452101A0DA001D9248 /* WetherReportTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WetherReportTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		31B328492101A0DA001D9248 /* WetherReportTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WetherReportTests.swift; sourceTree = "<group>"; };
+		31B3284B2101A0DA001D9248 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		31B328502101A0DA001D9248 /* WetherReportUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WetherReportUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		31B328542101A0DA001D9248 /* WetherReportUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WetherReportUITests.swift; sourceTree = "<group>"; };
+		31B328562101A0DA001D9248 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		31B3282B2101A0D9001D9248 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		31B328422101A0DA001D9248 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		31B3284D2101A0DA001D9248 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		31B328252101A0D8001D9248 = {
+			isa = PBXGroup;
+			children = (
+				31B328302101A0D9001D9248 /* WetherReport */,
+				31B328482101A0DA001D9248 /* WetherReportTests */,
+				31B328532101A0DA001D9248 /* WetherReportUITests */,
+				31B3282F2101A0D9001D9248 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		31B3282F2101A0D9001D9248 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				31B3282E2101A0D9001D9248 /* WetherReport.app */,
+				31B328452101A0DA001D9248 /* WetherReportTests.xctest */,
+				31B328502101A0DA001D9248 /* WetherReportUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		31B328302101A0D9001D9248 /* WetherReport */ = {
+			isa = PBXGroup;
+			children = (
+				31B328312101A0D9001D9248 /* AppDelegate.swift */,
+				31B328332101A0D9001D9248 /* ViewController.swift */,
+				31B328352101A0D9001D9248 /* Main.storyboard */,
+				31B3283B2101A0D9001D9248 /* Assets.xcassets */,
+				31B3283D2101A0D9001D9248 /* LaunchScreen.storyboard */,
+				31B328402101A0D9001D9248 /* Info.plist */,
+				31B328382101A0D9001D9248 /* WetherReport.xcdatamodeld */,
+			);
+			path = WetherReport;
+			sourceTree = "<group>";
+		};
+		31B328482101A0DA001D9248 /* WetherReportTests */ = {
+			isa = PBXGroup;
+			children = (
+				31B328492101A0DA001D9248 /* WetherReportTests.swift */,
+				31B3284B2101A0DA001D9248 /* Info.plist */,
+			);
+			path = WetherReportTests;
+			sourceTree = "<group>";
+		};
+		31B328532101A0DA001D9248 /* WetherReportUITests */ = {
+			isa = PBXGroup;
+			children = (
+				31B328542101A0DA001D9248 /* WetherReportUITests.swift */,
+				31B328562101A0DA001D9248 /* Info.plist */,
+			);
+			path = WetherReportUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		31B3282D2101A0D9001D9248 /* WetherReport */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 31B328592101A0DA001D9248 /* Build configuration list for PBXNativeTarget "WetherReport" */;
+			buildPhases = (
+				31B3282A2101A0D9001D9248 /* Sources */,
+				31B3282B2101A0D9001D9248 /* Frameworks */,
+				31B3282C2101A0D9001D9248 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WetherReport;
+			productName = WetherReport;
+			productReference = 31B3282E2101A0D9001D9248 /* WetherReport.app */;
+			productType = "com.apple.product-type.application";
+		};
+		31B328442101A0DA001D9248 /* WetherReportTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 31B3285C2101A0DA001D9248 /* Build configuration list for PBXNativeTarget "WetherReportTests" */;
+			buildPhases = (
+				31B328412101A0DA001D9248 /* Sources */,
+				31B328422101A0DA001D9248 /* Frameworks */,
+				31B328432101A0DA001D9248 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				31B328472101A0DA001D9248 /* PBXTargetDependency */,
+			);
+			name = WetherReportTests;
+			productName = WetherReportTests;
+			productReference = 31B328452101A0DA001D9248 /* WetherReportTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		31B3284F2101A0DA001D9248 /* WetherReportUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 31B3285F2101A0DA001D9248 /* Build configuration list for PBXNativeTarget "WetherReportUITests" */;
+			buildPhases = (
+				31B3284C2101A0DA001D9248 /* Sources */,
+				31B3284D2101A0DA001D9248 /* Frameworks */,
+				31B3284E2101A0DA001D9248 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				31B328522101A0DA001D9248 /* PBXTargetDependency */,
+			);
+			name = WetherReportUITests;
+			productName = WetherReportUITests;
+			productReference = 31B328502101A0DA001D9248 /* WetherReportUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		31B328262101A0D8001D9248 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = JNET;
+				TargetAttributes = {
+					31B3282D2101A0D9001D9248 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					31B328442101A0DA001D9248 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 31B3282D2101A0D9001D9248;
+					};
+					31B3284F2101A0DA001D9248 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 31B3282D2101A0D9001D9248;
+					};
+				};
+			};
+			buildConfigurationList = 31B328292101A0D8001D9248 /* Build configuration list for PBXProject "WetherReport" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 31B328252101A0D8001D9248;
+			productRefGroup = 31B3282F2101A0D9001D9248 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				31B3282D2101A0D9001D9248 /* WetherReport */,
+				31B328442101A0DA001D9248 /* WetherReportTests */,
+				31B3284F2101A0DA001D9248 /* WetherReportUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		31B3282C2101A0D9001D9248 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				31B3283F2101A0D9001D9248 /* LaunchScreen.storyboard in Resources */,
+				31B3283C2101A0D9001D9248 /* Assets.xcassets in Resources */,
+				31B328372101A0D9001D9248 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		31B328432101A0DA001D9248 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		31B3284E2101A0DA001D9248 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		31B3282A2101A0D9001D9248 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				31B328342101A0D9001D9248 /* ViewController.swift in Sources */,
+				31B3283A2101A0D9001D9248 /* WetherReport.xcdatamodeld in Sources */,
+				31B328322101A0D9001D9248 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		31B328412101A0DA001D9248 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				31B3284A2101A0DA001D9248 /* WetherReportTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		31B3284C2101A0DA001D9248 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				31B328552101A0DA001D9248 /* WetherReportUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		31B328472101A0DA001D9248 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 31B3282D2101A0D9001D9248 /* WetherReport */;
+			targetProxy = 31B328462101A0DA001D9248 /* PBXContainerItemProxy */;
+		};
+		31B328522101A0DA001D9248 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 31B3282D2101A0D9001D9248 /* WetherReport */;
+			targetProxy = 31B328512101A0DA001D9248 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		31B328352101A0D9001D9248 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				31B328362101A0D9001D9248 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		31B3283D2101A0D9001D9248 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				31B3283E2101A0D9001D9248 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		31B328572101A0DA001D9248 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		31B328582101A0DA001D9248 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		31B3285A2101A0DA001D9248 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = WetherReport/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jnet.WetherReport;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		31B3285B2101A0DA001D9248 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = WetherReport/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jnet.WetherReport;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		31B3285D2101A0DA001D9248 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = WetherReportTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jnet.WetherReportTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WetherReport.app/WetherReport";
+			};
+			name = Debug;
+		};
+		31B3285E2101A0DA001D9248 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = WetherReportTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jnet.WetherReportTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WetherReport.app/WetherReport";
+			};
+			name = Release;
+		};
+		31B328602101A0DA001D9248 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = WetherReportUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jnet.WetherReportUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = WetherReport;
+			};
+			name = Debug;
+		};
+		31B328612101A0DA001D9248 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = WetherReportUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jnet.WetherReportUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = WetherReport;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		31B328292101A0D8001D9248 /* Build configuration list for PBXProject "WetherReport" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				31B328572101A0DA001D9248 /* Debug */,
+				31B328582101A0DA001D9248 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		31B328592101A0DA001D9248 /* Build configuration list for PBXNativeTarget "WetherReport" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				31B3285A2101A0DA001D9248 /* Debug */,
+				31B3285B2101A0DA001D9248 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		31B3285C2101A0DA001D9248 /* Build configuration list for PBXNativeTarget "WetherReportTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				31B3285D2101A0DA001D9248 /* Debug */,
+				31B3285E2101A0DA001D9248 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		31B3285F2101A0DA001D9248 /* Build configuration list for PBXNativeTarget "WetherReportUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				31B328602101A0DA001D9248 /* Debug */,
+				31B328612101A0DA001D9248 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		31B328382101A0D9001D9248 /* WetherReport.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				31B328392101A0D9001D9248 /* WetherReport.xcdatamodel */,
+			);
+			currentVersion = 31B328392101A0D9001D9248 /* WetherReport.xcdatamodel */;
+			path = WetherReport.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 31B328262101A0D8001D9248 /* Project object */;
+}
