@@ -7,7 +7,18 @@
 //
 
 import UIKit
+import CoreData
 
 class cordataModel: NSObject {
 
+     
+    
+//    let appDelegate = UIApplication.shared.delegate as! AppDelegate
+//    
+//    let context = appDelegate.persistentContainer.viewContext
+//    
+//    let entity = NSEntityDescription.entity(forEntityName: "Wether", in:context)
+//    
+//    let wetherdata = NSManagedObject(entity: entity!, insertInto: context)
+    
 }

@@ -15,6 +15,8 @@
 		31B3283F2101A0D9001D9248 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 31B3283D2101A0D9001D9248 /* LaunchScreen.storyboard */; };
 		31B3284A2101A0DA001D9248 /* WetherReportTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31B328492101A0DA001D9248 /* WetherReportTests.swift */; };
 		31B328552101A0DA001D9248 /* WetherReportUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31B328542101A0DA001D9248 /* WetherReportUITests.swift */; };
+		31B328632101C140001D9248 /* AddNewLocationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31B328622101C140001D9248 /* AddNewLocationViewController.swift */; };
+		31B328652101F1D4001D9248 /* cordataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31B328642101F1D4001D9248 /* cordataModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		31B328502101A0DA001D9248 /* WetherReportUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WetherReportUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		31B328542101A0DA001D9248 /* WetherReportUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WetherReportUITests.swift; sourceTree = "<group>"; };
 		31B328562101A0DA001D9248 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		31B328622101C140001D9248 /* AddNewLocationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddNewLocationViewController.swift; sourceTree = "<group>"; };
+		31B328642101F1D4001D9248 /* cordataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cordataModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +105,8 @@
 			children = (
 				31B328312101A0D9001D9248 /* AppDelegate.swift */,
 				31B328332101A0D9001D9248 /* ViewController.swift */,
+				31B328622101C140001D9248 /* AddNewLocationViewController.swift */,
+				31B328642101F1D4001D9248 /* cordataModel.swift */,
 				31B328352101A0D9001D9248 /* Main.storyboard */,
 				31B3283B2101A0D9001D9248 /* Assets.xcassets */,
 				31B3283D2101A0D9001D9248 /* LaunchScreen.storyboard */,
@@ -262,7 +268,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				31B328632101C140001D9248 /* AddNewLocationViewController.swift in Sources */,
 				31B328342101A0D9001D9248 /* ViewController.swift in Sources */,
+				31B328652101F1D4001D9248 /* cordataModel.swift in Sources */,
 				31B3283A2101A0D9001D9248 /* WetherReport.xcdatamodeld in Sources */,
 				31B328322101A0D9001D9248 /* AppDelegate.swift in Sources */,
 			);
